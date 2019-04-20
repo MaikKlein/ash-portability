@@ -1,0 +1,12 @@
+[package]
+name = "ash-portability"
+version = "0.1.0"
+authors = ["maik <maik.klein@embark-studios.com>"]
+edition = "2018"
+
+[dependencies]
+ash = "0.28"
+
+[dependencies.portability]
+git = "https://github.com/MaikKlein/portability.git"
+features = ["vulkan"]
